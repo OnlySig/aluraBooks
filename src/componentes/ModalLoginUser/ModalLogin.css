@@ -1,0 +1,63 @@
+.form__login__container {
+    min-width: 509px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.form__login__container button {
+    padding: 7px 13px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #EB9B00;
+    border: 2px solid #EB9B00;
+    color: #FFF;
+    cursor: pointer;
+}
+.login__modal__imagem {
+    width: 277px;
+}
+.login__actions__container {
+    position: relative;
+    width: 450px;
+    margin: 0 auto;
+}
+.login__actions__container span {
+    color: red;
+    font-weight: 700;
+    position: absolute;
+    top: -14px; 
+}
+.login__actions__container a {
+    text-transform: lowercase !important;
+}
+.form__login__container hr {
+    position: relative;
+    top: -90px;
+    background-color: #002F52;
+}
+.login__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login__actions__container div:nth-child(2) {
+    margin-top: 10px;
+}
+.login__actions a {
+    color: #002F52 !important;
+    font-size: 16px !important;
+    text-decoration: underline !important;
+    text-transform: none !important;
+}
+.login__createAccount {
+    display: flex;
+    justify-content: space-between;
+}
+.createAccount {
+    margin-top: 50px;
+}
+.createAccount h3 {
+    color: #002F52;
+    font-weight: 700;
+    font-size: 20px;
+}

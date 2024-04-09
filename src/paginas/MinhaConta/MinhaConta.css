@@ -1,0 +1,65 @@
+.headerConta {
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+    height: 120px;
+}
+.info__account__container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 0 141px;
+    gap: 76px;
+    margin: 146px 0;
+}
+.info__content__container {
+    width: 100%;
+    max-width: 1000px;
+}
+.options__itens a {
+    text-decoration: none;
+}
+.options__item {
+    cursor: pointer;
+    color: #002F52;
+    font-size: 16px;
+    padding: 12px 46px;
+    width: 85px;
+    text-align: center;
+    border-bottom: 1px solid #C4C4C4;
+}
+.is-active__optins__item {
+    font-weight: 700;
+    border-color: #0E3E61;
+}
+.pedido__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #002F52;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+.pedido__container:last-child {
+    border-bottom: none
+}
+
+.pedido__infos p {
+    margin: 5px 0 0 12px;
+}
+.pedido__btn__container button {
+    padding: 9px 30px;
+    font-size: 16px;
+    margin-right: 12px;
+}
+.pedido__btn__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}

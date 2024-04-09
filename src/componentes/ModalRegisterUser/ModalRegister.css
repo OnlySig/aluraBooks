@@ -1,0 +1,26 @@
+.modal__container {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+.modal__image {
+    width: fit-content;
+}
+.form__container {
+    min-width: 509px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.inputs__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 19px;
+}
+.inputs__row  div:first-child{
+    width: 60%;
+}
+.button__container {
+    display: flex;
+    justify-content: center;
+}
