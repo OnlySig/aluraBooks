@@ -1,3 +1,5 @@
+import Newsletter from '../../componentes/Newsletter'
+import TagsCategorias from '../../componentes/TagsCategorias'
 import './MinhaConta.css'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 
@@ -21,6 +23,8 @@ const MinhaConta = () => {
                     <Outlet />
                 </div>
             </section>
+            <TagsCategorias/>
+            <Newsletter/>
         </>
     )
 }

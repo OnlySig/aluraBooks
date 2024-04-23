@@ -1,0 +1,26 @@
+.container__livro {
+    max-width: 1060px;
+    margin: 20px auto;
+}
+.image__livro {
+    box-shadow: 5px 5px 10px -2px rgba(0,0,0,0.3);
+    width: 377px;
+}
+.item__livroInfo {
+    display: flex;
+    justify-content: space-between;
+}
+.opcoes__livro {
+    display: flex;
+}
+.qtd__livro {
+    display: flex;
+}
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__container footer{
+
+}

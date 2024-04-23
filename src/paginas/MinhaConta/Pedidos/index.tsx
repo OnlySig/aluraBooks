@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { IPedidos } from "../../../interfaces/IPedidos"
 import { useNavigate } from "react-router-dom"
 import http from "../../../http"
+import { useFormatar } from "../../../hooks/formatar"
 
 const Pedidos = () => {
     const [pedidos, setPedidos] = useState<IPedidos[]>([])
@@ -22,7 +23,7 @@ const Pedidos = () => {
         .then(()=>setPedidos(pedidos.filter(pedido => pedido.id !== id)))
         .catch(error => console.log(error))
     }
-    const formatar = Intl.NumberFormat('pt-br', { style: 'currency', currency: 'BRL' })
+    const formatar = useFormatar('pt-br', 'BRL')
     return(
         <>
             <h2>Pedidos</h2>

@@ -1,0 +1,14 @@
+.container__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 242px;
+    margin-bottom: 10px;
+}
+.container__box img {
+    width: 100%;
+}
+.container__box button {
+    width: 100%;
+}

@@ -40,6 +40,9 @@
     text-transform: uppercase;
     text-decoration: none;
     color: inherit;
+    display: block;
+    width: 100%;
+    padding: 5px;
 }
 
 .ab-navbar ul li a .logo {
